@@ -1,5 +1,4 @@
-# Transfer model for Binary Classification (for cat vs dog image recognition), 
-# using MobileNetV2 pre-trained on ImageNet dataset as base model.
+# Transfer model for Binary Classification (for cat vs dog image recognition), using MobileNetV2 pre-trained on ImageNet dataset as base model.
 
 
 **Python packages used for data preprocessing and creating of the model:** TensorFlow.
@@ -9,7 +8,9 @@
 **Data preprocessing:**
 - Resizing: into 160px * 160px images – so that they fit MobileNetV2 model That is 12 288 features in total for each image.
 - Batching: BATCH_SIZE = 32
+
 **Base model:** MobileNetV2 pre-trained on ImageNet dataset
+
 **Transfer model (catdog_model):**
 Transfer model’s layers:
 - Input layer
